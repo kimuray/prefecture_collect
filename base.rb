@@ -30,3 +30,5 @@ class String
       .downcase
   end
 end
+
+Base.new.execute
