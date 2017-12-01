@@ -10,8 +10,8 @@ class Base
   end
 
   def execute
-    PrefectureYaml.generate({ 'prefectures' => prefectures }, 'prefectures.yml')
-    PrefectureYaml.generate({ 'cities' => cities }, 'cities.yml')
+    PrefectureYaml.generate({ 'prefectures' => prefectures }, 'output/prefectures.yml')
+    PrefectureYaml.generate({ 'cities' => cities }, 'output/cities.yml')
   end
 
   def trancerate_snake_case(data)
